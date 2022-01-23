@@ -1,6 +1,7 @@
 .nav {
   padding: 0.5rem 1rem;
-  background: #2c82c9;
+  background-color: gray;
+  color: white;
 }
 
 .nav ul {

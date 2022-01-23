@@ -1,22 +1,15 @@
 import Link from "next/link";
-import navStyles from "../styles/Nav.module.css";
 
 const Nav = () => {
   return (
-    <nav className={navStyles.nav}>
-      <ul>
-        <li>
-          <Link href="/">
-            <a>HOME</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/photos">
-            <a>PHOTOS</a>
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="ui two item menu">
+      <Link href={`/about`}>
+        <a className="item">ABOUT</a>
+      </Link>
+      <Link href={`/stores`}>
+        <a className="item">STORES</a>
+      </Link>
+    </div>
   );
 };
 

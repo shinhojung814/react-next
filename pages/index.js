@@ -1,38 +1,20 @@
 import Head from "next/head";
+import "semantic-ui-css/semantic.min.css";
 
-export default function Home({ posts }) {
-  console.log(posts);
+export default function Home({ stores }) {
+  console.log(stores);
 
-  return (
-    <div>
-      <h1>NEXT PRACTICE</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post.id}>{post.title}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <div>{/* <h1>AWESOME FOOD STORE</h1> */}</div>;
 }
 
-// export const getServerSideProps = async () => {
-//   const res = await fetch(`http://localhost:8080/api/posts`);
-//   const posts = await res.json();
-
-//   return {
-//     props: {
-//       posts,
-//     },
-//   };
-// };
-
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:8080/api/posts`);
-  const posts = await res.json();
+  const res = await fetch(`http://localhost:9000/stores`);
+  const stores = await res.json();
 
   return {
     props: {
-      posts,
+      stores,
     },
+    revalidate: 20,
   };
 };

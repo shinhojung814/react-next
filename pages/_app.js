@@ -1,11 +1,15 @@
 import "../styles/globals.css";
-import Layout from "../components/Layout";
+import "semantic-ui-css/semantic.min.css";
+import Top from "../components/Top";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <div>
+      <Top />
       <Component {...pageProps} />
-    </Layout>
+      <Footer />
+    </div>
   );
 }
 
