@@ -1,20 +1,20 @@
 {
   "stores": [
-    { 
+    {
       "id": 1,
       "name": "벼락 닭꼬치",
       "description": "FOOD TRUCK - GRILLED CHICKEN\n\u2028벼락닭꼬치  CHICKEN SKEWERS\n입안에서 터지는 맛! 식도 타고 흐르는 맛!\n\n통인시장에서 줄 서서 먹는다는 효자동 닭꼬치가 커먼그라운드에 새로운 이름으로 찾아왔습니다.\n모짜렐라치즈, 소금구이 등 다양한 맛을 내는 닭꼬치가 준비되어 있습니다.\n\n상상 이상의 사이즈에 맛도, 가격도 상상 이상인 한번 맛보면 바로 단골 손님이 되는 그 맛, <벼락닭꼬치>를 푸드트럭에서 시원한 맥주와 함께 즐길 수 있습니다.\n\nLAST ORDER : 21시 30분",
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000354.png",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/354.png"
     },
-    { 
+    {
       "id": 2,
       "name": "sideshow",
       "description": "KOREAN RESTAURANT\u2028\n사이드쇼  SIDE SHOW\n개성 넘치는 가게들이 즐비한 홍대에서 즉석떡볶이라는 평범한 메뉴를 차돌박이와 통오징어라는 재료를 이용하여 새롭게 재해석한 프리미엄 즉석 떡볶이 레스토랑 <사이드쇼>는 홍대 뿐만 아니라 코엑스에서도 웨이팅이 길기로 소문난 레스토랑 입니다.\n\n고퀄리티의 맛있는 떡볶이뿐만 아니라, 흔히 볼 수 없는 다양한 피규어와 팝아트 작품, 코카콜라 보틀 컬렉션 등 다양한 볼거리를 제공하는 인테리어를 만날 수 있는 공간으로, 스트릿 마켓 3층 <사이드쇼>는 이색적인 공간에서 맛보는 다양한 재료의 떡볶이를 제공합니다.\n\nLAST ORDER : 21시 15분",
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000017.jpg",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/17.jpg"
     },
-    { 
+    {
       "id": 3,
       "name": "180 coffee roaster",
       "url": "http://www.180coffee.com",
@@ -22,7 +22,7 @@
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000030.jpg",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/30.jpg"
     },
-    { 
+    {
       "id": 4,
       "name": "lebreadlab.net",
       "url": "http://lebreadlab.net",
@@ -30,21 +30,21 @@
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000365.jpg",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/365.jpg"
     },
-    { 
+    {
       "id": 5,
       "name": "방콕야시장",
       "description": "THAILAND RESTAURANT\n\u2028방콕야시장  BANGKOK NIGHT MARKET\n서울의 새로운 핫플레이스로 떠오르며 다양한 국적의 맛집이 모여있는 샤로수길에서도 맛집으로 소문난 <방콕야시장>이 커먼그라운드에 2호점을 오픈했습니다.\n\nMSG와 파우더를 사용하지 않고 오로지 재료 본연의 맛으로 음식을 제공하는 입구부터 태국스러운 <방콕야시장>에서는 메뉴뿐만이 아니라 태국 라면, 사탕 등의 먹거리들과 구아바주스, 오이시그린티 등의 완제품들과 함께 방콕에 온 기분을 한껏 느낄 수 있습니다.\n\n싱하 테이블 위 팟타이, 뿌팟퐁커리, 똠양꿍 등의 현지 맛 가득한 음식들과 함께 시원한 맥주 한 모금을 마시며 방콕으로의 여행을 커먼그라운드 마켓홀 3층에서 즐길 수 있습니다.\n\nLAST ORDER : 21시 15분",
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000374.jpg",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/374.jpg"
     },
-    { 
+    {
       "id": 6,
       "name": "grabeat",
       "description": "AMERICAN RESTAURANT\n\u2028그랩잇트  GRAB-EAT\n커먼그라운드에서 시작한 아메리칸 그릴 레스토랑 <GRAB-EAT>는 미국 엄마의 마음을 담아 다양한 미국식 그릴 메뉴와 홈메이드 스타일의 요리를 선보이는 '캐주얼 아메리칸 그릴 레스토랑'입니다.\n\n미국 가정식 요리인 잠발라야 위에 긴~ 소시지가 올려진 롱-소시지 잠발라야. 맥앤치즈를 즐기는 또 다른 방법, 맥앤치즈버거 등의 메뉴들은 미국에서 맛볼 수 있는 맛을 그대로 재현합니다.\n\n<GRAB-EAT!> 한 입 가득 미국스러운 음식을 맛보며, 편안한 분위기에서 아메리칸 그릴을 만끽해보시고 싶다면 스트릿 마켓 3층으로 오시면 됩니다.\n\nLAST ORDER : 21시 15분",
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000466.jpg",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/466.jpg"
     },
-    { 
+    {
       "id": 7,
       "name": "장화 신은 젖소",
       "url": "http://www.milkcowinboots.co.kr",
@@ -52,7 +52,7 @@
       "image": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/00000000458.jpg",
       "thumb": "https://s3.ap-northeast-2.amazonaws.com/images.brandsites/common-ground/uploads/thumbs/458.jpg"
     },
-    { 
+    {
       "id": 8,
       "name": "lite lane",
       "url": "http://www.instagram.com/lite_lane",

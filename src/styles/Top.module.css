@@ -1,8 +1,6 @@
 .top {
-  position: fixed;
-  top: 0;
   width: 100%;
-  margin-top: 1rem;
+  padding: 1rem;
   background-color: white;
   color: gray;
   text-align: center;
@@ -10,5 +8,6 @@
 }
 
 .header {
+  text-align: center;
   font-style: oblique;
 }

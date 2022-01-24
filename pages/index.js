@@ -1,20 +1,30 @@
+import { useState, useEffect } from "react";
 import Head from "next/head";
-import "semantic-ui-css/semantic.min.css";
+import axios from "axios";
+import StoreList from "../src/components/StoreList";
+import styles from "../styles/Home.module.css";
 
-export default function Home({ stores }) {
-  console.log(stores);
+export default function Home() {
+  const [stores, setStores] = useState([]);
+  const url = `http://localhost:9000/stores`;
 
-  return <div>{/* <h1>AWESOME FOOD STORE</h1> */}</div>;
+  function getData() {
+    axios.get(url).then((res) => {
+      console.log(res);
+      setStores(res.data);
+    });
+  }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  return (
+    <div>
+      <Head>
+        <title>AWESOME FOOD STORE</title>
+      </Head>
+      <StoreList stores={stores} />
+    </div>
+  );
 }
-
-export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:9000/stores`);
-  const stores = await res.json();
-
-  return {
-    props: {
-      stores,
-    },
-    revalidate: 20,
-  };
-};

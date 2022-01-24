@@ -1,14 +1,13 @@
 import "../styles/globals.css";
 import "semantic-ui-css/semantic.min.css";
-import Top from "../components/Top";
-import Footer from "../components/Footer";
+import Layout from "../src/components/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
-      <Top />
-      <Component {...pageProps} />
-      <Footer />
+    <div style={{ width: 1000, margin: "0 auto" }}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </div>
   );
 }
